@@ -1,5 +1,45 @@
+.btn-green {
+  background-color: greenyellow !important;
+
+  &:hover,
+  &:active {
+    background-color: greenyellow !important;
+    color: black !important;
+  }
+
+  &:focus {
+    outline: none !important;
+  }
+}
+
 .btn-yellow {
-  background-color: yellow;
+  background-color: yellow !important;
+  border: none !important;
+  
+  &:hover,
+  &:active {
+    background-color: yellow !important;
+    color: black !important;
+  }
+
+  &:focus {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+  }
+}
+
+.text-color-dropdown {
+  color: darkgray !important;
+  &:hover {
+    color: antiquewhite !important;
+  }
+}
+
+.dropdown-menu-color-hover {
+  &:hover {
+    background-color: #2b2d30 !important;
+  }
 }
 
 .btn-space {
